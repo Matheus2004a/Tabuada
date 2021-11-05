@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -11,7 +7,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada - Estruturas de Repetição em PHP</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,15 +19,6 @@ session_start();
             <label for="floatingInput">Escolha um número qualquer:</label>
         </div>
         <button type="submit" class="btn btn-success">Calcular</button>
-
-        <?php
-        if (empty($_POST["numEsc"])) {
-            echo $_SESSION['number-empty'];
-        } else {
-           echo $_SESSION['number-calc'];
-           echo $_SESSION['hr'];
-        }
-        ?>
     </form>
 </body>
 
