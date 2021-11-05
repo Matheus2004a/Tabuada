@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    margin: 15% auto;
+    padding: 1rem;
+    background-color: #3acec1;
+    border-radius: 5px;
+}
+
+form h2{
+    color: #fff;
+}
+
+input[type="number"]{
+    outline: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+button[type="submit"]{
+    background: #1d8d84;
+    border: none;
+}
