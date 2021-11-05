@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-form{
+.form-calculator{
     width: fit-content;
     display: grid;
     justify-content: center;
-    margin: 15% auto;
+    margin: 2% auto;
     padding: 1rem;
-    background-color: #3acec1;
+    background-color: #B0C4DE;
     border-radius: 5px;
 }
 
@@ -18,13 +18,22 @@ form h2{
     color: #fff;
 }
 
-input[type="number"]{
+input{
     outline: none;
     margin: 1rem 0;
     padding: 0;
 }
 
+span{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
 button[type="submit"]{
-    background: #1d8d84;
-    border: none;
+    background: #1e8179;
+}
+
+button.btn{
+    margin-top: 1rem;
 }
